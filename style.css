@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+  }
+
+
+  /*{outline: 1px solid #000}*/
+.container{
+    width: 940px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+    align-items: center;
+}
+.logo{
+    width: 210px;  
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu a{
+    padding: 10px 30px 8px 30px;
+    text-decoration: none;
+    color: #3F5D45;
+    font-weight: bolder;
+}
+.barmenu{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img{
+    margin-top: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.list li{
+    width: 300px;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight:bold;
+    border: 1px solid #EAF0ED ;
+}
+.title{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+    background-color: #3F5D45;
+}
+.located{
+    background-color: #EAF0ED;
+}
+.list a{
+    text-decoration: none;
+    color: #3F5D45;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.list a:hover{
+    background-color: #EAF0ED;
+}
+
+.product{
+    width: 660px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.item{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size:20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EAF0ED;
+    
+}
+.name h3{
+    color: #3F5D45;
+    padding: 14px 33px;
+    
+}
+.name span{
+    color: #3F5D45;
+    font-weight: 600;
+    border-left: 1px solid #EAF0ED;
+    padding: 14px 20px 14px 25px;
+}
+.item a{
+    display: block;
+    background-color: #EAF0ED;
+    text-decoration: none;
+    color: #3F5D45;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px 0px 16px 0px;
+}
+.item a:hover{
+    background-color: #3F5D45;
+    color: white;
+}
+
+.like{
+    position: relative;
+}
+.like img{
+    width: 25px;
+    position: absolute;
+    top: 19px;
+    right: 22px;
+}
+.like p{
+    position: absolute;
+    left: 20px;
+    width: 36px;
+    height: 100px;
+    background: #3F5D45;
+    color: #EAF0ED;
+    line-height: 18px;
+    padding: 15px 10px;
+}
+
+
+.page{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.page li{
+    width: 60px;
+    border: 1px solid #EAF0ED;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.firstpage a{
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background:#3F5D45;
+    text-decoration: none;
+    color:#EAF0ED;
+}
+.number a{
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: #3F5D45;
+}
+.number a:hover{
+    background:#3F5D45;
+    color:#EAF0ED;
+}
+.arrow {
+    padding-top: 16px;
+}
+
+
+
